@@ -206,3 +206,11 @@ body {
         right: 5%;
     }
 }
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../imagenes/fondoProvisional.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
