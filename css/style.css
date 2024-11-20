@@ -57,7 +57,9 @@ body {
     right: 0;
     z-index: 1000;
 }
-
+section{
+    padding:2rem 7%;
+}
 .encabezado .logo img {
     height: 6rem;
     width: 6rem;
@@ -150,6 +152,9 @@ body {
     .encabezado {
         padding: 1.5rem 2rem;
     }
+    section{
+        padding:2rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -194,6 +199,17 @@ body {
         width: 90%;
         right: 2rem;
     }
+    .home{
+        background-position: left;
+        justify-content: center;
+        text-align: center;
+    }
+    .home .content h3{    
+        font-size: 4.5rem;
+    }
+    .home .content p{
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 450px) {
@@ -213,4 +229,22 @@ body {
     background: url(../imagenes/fondoProvisional.png) no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.home .content p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 2rem 0;
+    color: #eee;
 }
