@@ -160,7 +160,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../imagenes/fondoProvisional.png) no-repeat;
+    background: url(../imagenes/fondoProvisional.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -171,8 +171,9 @@ section{
 
 .home .content h3{
     font-size: 6rem;
+    
     text-transform: uppercase;
-    color: #fff;
+    color: #010103;
 }
 
 .home .content p{
