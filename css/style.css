@@ -156,6 +156,170 @@ section{
     color: var(--main-color);
 }
 
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../imagenes/fondoProvisional.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 60rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.home .content p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 2rem 0;
+    color: #eee;
+}
+
+.Informacion  .row{
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
+
+.Informacion .row .image{
+    flex: 1 1 45rem;
+
+}
+.Informacion  .row .image img{
+    width: 100%;
+
+}
+.Informacion .row .content{
+    flex: 1 1 45rem;
+    padding:2rem;
+}
+.Informacion .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+.Informacion .row .content p{
+    font-size: 1.6rem;
+    color:#ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.btn {
+    display: inline-block;
+    background: var(--main-color);
+    color: #fff;
+    padding: 1rem 2.5rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background: #b08b6d;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(1);
+}
+
+.menu .caja-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .caja-menu .caja {
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.menu .caja-menu .caja img {
+    height: 10rem;
+}
+
+.menu .caja-menu .caja h3 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.menu .caja-menu .caja p {
+    font-size: 1.6rem;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.menu .caja-menu .caja:hover {
+    background: #fff;
+}
+
+.menu .caja-menu .caja:hover > *{
+    color:var(--black);
+}
+
+.Productos .caja-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.Productos .caja-productos .caja {
+    padding: 5rem;
+    text-align: center;
+    border: var(--border);
+}
+
+.Productos .caja-productos .caja .iconos a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: var(--border);
+    color: #fff;
+    margin: .3rem;
+}
+.Productos .caja-productos .caja .iconos a:hover{
+    background: var(--main-color);
+    color: #fff;
+}
+
+.Productos .caja-productos .caja .image {
+    padding: 2.5rem;
+}
+.Productos .caja-productos .caja .image img {
+    height: 25rem;
+}
+
+.Productos .caja-productos .caja h3{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem 0
+}
+
+.Productos .caja-productos .caja .content .stars{
+    padding: 1.5rem;
+}
+
+.Productos .caja-productos .caja .content .stars i{
+    font-size: 1.7rem;
+    color: var(--main-color)
+}
+
+
 @media (max-width: 991px) {
     html {
         font-size: 55%;
@@ -233,60 +397,4 @@ section{
         width: 90%;
         right: 5%;
     }
-}
-.home{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    background: url(../imagenes/fondoProvisional.png) no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.home .content{
-    max-width: 60rem;
-}
-
-.home .content h3{
-    font-size: 6rem;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-.home .content p{
-    font-size: 1rem;
-    font-weight: lighter;
-    line-height: 1.8;
-    padding: 2rem 0;
-    color: #eee;
-}
-
-.Informacion  .row{
-    display: flex;
-    align-items: center;
-    background: var(--black);
-    flex-wrap: wrap;
-}
-
-.Informacion .row .image{
-    flex: 1 1 45rem;
-
-}
-.Informacion  .row .image img{
-    width: 100%;
-
-}
-.Informacion .row .content{
-    flex: 1 1 45rem;
-    padding:2rem;
-}
-.Informacion .row .content h3{
-    font-size: 3rem;
-    color:#fff;
-}
-.Informacion .row .content p{
-    font-size: 1.6rem;
-    color:#ccc;
-    padding: 1rem 0;
-    line-height: 1.8;
 }
