@@ -434,3 +434,51 @@ section{
     font-size: 1.5rem;
     color:var(--main-color);
 }
+.Contactos .row {
+    display: flex;
+    background-color: var(--black);
+    flex-wrap: wrap;
+    gap:1rem;
+}
+
+.Contactos .row .map{
+    flex:1 1 45rem ;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Contactos .row form{
+    flex:1 1 45rem ;
+    padding: 5rem 2 rem;
+    text-align: center;
+}
+
+.Contactos .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.Contactos .row form .inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--bg);
+    border: var(--border);
+}
+
+.Contactos .row form .inputBox span{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+
+.Contactos .row form .inputBox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+}
