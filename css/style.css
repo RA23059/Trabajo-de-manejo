@@ -482,3 +482,57 @@ section{
     text-transform: none;
     background: none;
 }
+
+.Blogs .box-cotainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.Blogs .box-cotainer .caja{
+    border: var(--border);
+}
+
+.Blogs .box-cotainer .caja .image{
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.Blogs .box-cotainer .caja .image img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.Blogs .box-cotainer .caja:hover .image img{
+    transform: scale(1.2);
+}
+
+.Blogs .box-cotainer .caja .content{
+    padding: 2rem;
+}
+
+.Blogs .box-cotainer .caja .content .title{
+    padding: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.Blogs .box-cotainer .caja .content .title:hover{
+    color: var(--main-color);
+}
+
+.Blogs .box-cotainer .caja .content span{
+    color: var(--main-color);
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+.Blogs .box-cotainer .caja .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 1rem 0;
+}
