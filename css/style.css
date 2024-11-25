@@ -160,7 +160,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(../imagenes/fondoProvisional.jpg) no-repeat;
+    background: url(../imagenes/Fondo_Imagen.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -173,15 +173,15 @@ section{
     font-size: 6rem;
     
     text-transform: uppercase;
-    color: #010103;
+    color: #fff;
 }
 
 .home .content p{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: lighter;
     line-height: 1.8;
     padding: 2rem 0;
-    color: #eee;
+    color:#fff;
 }
 
 .Informacion  .row{
@@ -589,5 +589,5 @@ section{
 
 .footer .credit span{
     color:var(--main-color);
-    
+
 }
